@@ -1,7 +1,0 @@
-
-target/
-dbt_packages/
-logs/
-
-# Ignore sensitive profiles file
-dbt_project.yml
