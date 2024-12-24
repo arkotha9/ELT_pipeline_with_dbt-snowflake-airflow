@@ -9,3 +9,14 @@ then give usage access n warehouse and all access on database. Proceed to use cr
 
 5) Then I ran 'dbt init' to initialize The dbt init command initializes a new dbt project.
 It sets up the directory structure and configuration files needed to start building and managing your data transformations using dbt.
+
+6) I created two new tables and views in my models and installed packages in packge.yml using 'dbt deps'
+
+7) I am unblt  connect to snowflake so trying to debug: problem was i used the whole url in locator, just use the name of locator
+-- To view your profiles.yml file, run:
+open /Users/rojan/.dbt
+
+8) to run sql scripts in staging: use dbt run
+- for specific script use dbt run -s filename.sql // -s indicate sstaging
+
+-- succesly i ran my staging scits and I see them as views ins nowflake warehouse
