@@ -1,0 +1,11 @@
+1) First create virtual env using python -m venv venv (done)
+2) Shift to venv by 'source venv/Scripts/activate'
+3) Install dbt core: python -m pip install dbt-core
+4) Install the necessary datawarehouse: pip install dbt-snowflake
+
+Snowflake:
+Each worksheet on snowflake has a role, warehouse and a schema to be defined
+then give usage access n warehouse and all access on database. Proceed to use created role and create a scehema in the database
+
+5) Then I ran 'dbt init' to initialize The dbt init command initializes a new dbt project.
+It sets up the directory structure and configuration files needed to start building and managing your data transformations using dbt.
