@@ -20,3 +20,9 @@ open /Users/rojan/.dbt
 - for specific script use dbt run -s filename.sql // -s indicate sstaging
 
 -- succesly i ran my staging scits and I see them as views ins nowflake warehouse
+
+9) Now staging tables are 1:1 with src tave. I need to rdate aggregations and metrics rom staging tbales to et fact tables. These tables has foreign keys for each ofthe associated dimenions
+
+10) ENsure you are running the tables u r referencing first before u run th ones in marts
+
+11) Macro fns are good way to reuse business logic across multiple models. FOllow Jinja template.
