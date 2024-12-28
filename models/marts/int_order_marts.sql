@@ -2,6 +2,7 @@ SELECT
     litems.order_item_key,
     litems.part_key,
     litems.line_number,
+    litems.extended_price,
     orders.order_key,
     orders.customer_key,
     orders.order_date,
